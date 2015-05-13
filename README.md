@@ -11,7 +11,7 @@ Migration and seed files with all all the cities of Belguim for Laravel PHP Fram
 	*/
 	public function create()
 	{
-		$countries = Cities::all();
+		$cities = Cities::all();
 
 		return View::make('myview', compact('cities'));
 	}
